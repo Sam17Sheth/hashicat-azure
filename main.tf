@@ -104,8 +104,6 @@ resource "azurerm_public_ip" "catapp-pip" {
 
 resource "azurerm_virtual_machine" "catapp" {
 
-
-  
     tags = {
     Department = "devops"
     Billable = "true"
